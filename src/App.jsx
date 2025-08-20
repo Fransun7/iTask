@@ -2,7 +2,6 @@ import { useState } from "react";
 import Header from "./components/Header";
 import Filter from "./components/Filter";
 import Cards from "./components/Cards";
-git 
 function App() {
   const [tasks, setTasks] = useState([]);
   const [filter, setFilter] = useState("all");
