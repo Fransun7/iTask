@@ -1,0 +1,14 @@
+@font-face {
+  font-family: lemon;
+  src: url("../src/assets/fonts/Lemon-Regular.ttf");
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-lemon: lemon, "sans-serif";
+  --color-primary: #d6d3d1;
+  --color-primary-dark: #0d0d0d
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
