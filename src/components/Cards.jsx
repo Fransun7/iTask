@@ -17,7 +17,7 @@ function Cards({ tasks, onDelete}) {
       {tasks.map((task) => (
         <div
           key={task.id}
-          className={`bg-white dark:bg-neutral-900 h-40 border-4 border-white dark:border-y-neutral-900 rounded-lg flex mt-5 ${task.color} `}
+          className={`bg-white dark:bg-neutral-900 h-40 border-4 border-primary-dark dark:border-y-neutral-900 rounded-lg flex w-full mt-5 ${task.color} `}
         >
           {/*Left-side of the card*/}
           <div className="w-[5%]">
